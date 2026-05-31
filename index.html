@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cron Expression Translator — Glassmorphism Dashboard</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="glass-bg"></div>
+    <div class="app-container">
+        <header class="app-header">
+            <div class="logo-row">
+                <span class="logo-emoji">⏱</span>
+                <div class="title-col">
+                    <h1>Cron Expression Translator</h1>
+                    <p class="tagline">Build Cron schedules easily and see intuitive, human-readable execution descriptors.</p>
+                </div>
+            </div>
+            <div class="badge">utilities</div>
+        </header>
+
+        <main class="workspace-card">
+            
+            <div style="display: flex; gap: 12px; margin-bottom: 16px;">
+                <input type="text" id="cron-input" value="*/5 * * * *" placeholder="*/5 * * * *">
+                <button class="btn" id="btn-cron-parse">Translate</button>
+            </div>
+            <div id="cron-summary" class="summary-card" style="font-size: 18px; color: var(--accent); text-align: center; padding: 20px 0;"></div>
+        
+        </main>
+        
+        <footer class="app-footer">
+            <p>Created as a premium portfolio piece by <a href="https://github.com/VARSHAN69" target="_blank">@VARSHAN69</a></p>
+        </footer>
+    </div>
+    
+    <script src="app.js"></script>
+</body>
+</html>
