@@ -38,7 +38,7 @@ version: 1.0
 type: Repository
 author: VarshuAi
 description: >
-  Build Cron schedules easily and see intuitive, human-readable execution descriptors.
+  name: cron-expression-generator version: 1.0 type: Repository author: VarshuAi description: >   Build Cron schedules easily and see intuitive, human-readable execution descriptors. primary_tech: CSS
 primary_tech: CSS
 ```
 
